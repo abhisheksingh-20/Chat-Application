@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: true,
+    origin: "https://chat-application-abhisheksingh-20s-projects.vercel.app",
     credentials: true,
   })
 );
